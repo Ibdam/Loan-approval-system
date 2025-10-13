@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0b132b;
+  color: #e0e1dd;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1c2541;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #5bc0be;
+}
+
+header p {
+  color: #a9bcd0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.form-section, .visual-section {
+  background-color: #1c2541;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.form-section h2, .visual-section h2 {
+  color: #5bc0be;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #3a506b;
+  color: white;
+}
+
+button {
+  width: 100%;
+  background-color: #5bc0be;
+  color: #0b132b;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3aafa9;
+}
+
+.result-card {
+  margin-top: 1.5rem;
+  text-align: center;
+  background: #3a506b;
+  border-radius: 12px;
+  padding: 1rem;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+.visual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.chart-card {
+  background: #3a506b;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.chart-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1c2541;
+  color: #a9bcd0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
